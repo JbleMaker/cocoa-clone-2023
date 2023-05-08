@@ -40,3 +40,23 @@
 .user-component__title--not-bold {
   font-weight: 400;
 }
+
+.user-component__column:last-child {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.user-component__time {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.user-component__subtitle span {
+  display: inline-block;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  border: 2px solid red;
+  text-align: center;
+  font-size: 15px;
+  color: red;
+}
